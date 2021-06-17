@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    align-items: center;
+  } 
+  h1{
+      
+      padding-left: 560px;
+      margin-top:35px;
+      font-size: 45px;
+      font-weight: bolder;
+ 
+  }
+  body{
+    background-image:url(images/wa4.jpeg);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-size: cover;
+  }
+  .app-main{
+    width:50vh;
+    margin:100px;
+    background-image:url(images/wa5.jpeg);
+    padding:20px;
+    text-align: center;
+    margin-left: 530px;
+  }
+  .app-main >* {
+      margin-bottom: 20px;
+  }
+  .input-box{
+      width:100%;
+      border:none;
+      outline: none;
+      background-color:powderblue;
+      font-size: 1.2rem;
+      height:50px;
+      border-radius: 5px;
+      text-align: center;
+  }
+  .input-box:focus{
+      background-color:rgb(176, 237, 245);
+  }
+  .weather-body{
+      color:black;
+      padding:20px;
+      line-height:2rem;
+      font-weight: bold;
+     
+      background-color:transparent;
+
+      height:50vh;
+  }
+ 
+  .location-details{
+      font-weight: bold;
+  }
+  .weather-status{
+      padding: 50pt;
+  }
+  .temp{
+      font-size: 50pt;
+      font-weight: bold;
+      margin:20px 0;
+      text-shadow: 2px 4px rgba(0,0,0,0.3);
+  }
+  .min-max,.weather{
+    font-size: 10pt;
+    font-weight: 600;
+  }
+
+
+   
+    
+
